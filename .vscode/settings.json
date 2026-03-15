@@ -1,0 +1,25 @@
+{
+    "chat.mcp.serverSampling": {
+        "todo-demo-codex/.vscode/mcp.json: io.github.upstash/context7": {
+            "allowedModels": [
+                "copilot/auto",
+                "claude-code/claude-sonnet-4.6",
+                "copilotcli/claude-sonnet-4.6",
+                "claude-code/claude-haiku-4.5",
+                "copilotcli/claude-haiku-4.5",
+                "copilot/claude-haiku-4.5",
+                "claude-code/claude-opus-4.6",
+                "copilotcli/claude-opus-4.6",
+                "copilotcli/claude-opus-4.6-fast",
+                "claude-code/claude-opus-4.6-fast",
+                "copilotcli/gpt-4.1",
+                "copilot/gpt-4.1",
+                "copilot/gpt-4o",
+                "copilotcli/gpt-5-mini",
+                "copilot/gpt-5-mini",
+                "copilotcli/gpt-5.2-codex",
+                "copilot/oswe-vscode-prime"
+            ]
+        }
+    }
+}

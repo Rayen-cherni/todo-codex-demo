@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="heroBadge" datatype="html">
+        <source>Angular starter</source>
+        <target>Starter Angular</target>
+      </trans-unit>
+      <trans-unit id="languageLabel" datatype="html">
+        <source>Language</source>
+        <target>Langue</target>
+      </trans-unit>
+      <trans-unit id="heroTitle" datatype="html">
+        <source>Plan your day with a fast, local-first todo board.</source>
+        <target>Organisez votre journee avec un tableau de taches rapide et local.</target>
+      </trans-unit>
+      <trans-unit id="heroDescription" datatype="html">
+        <source>Standalone Angular components, signal-based state, Tailwind styling, and browser persistence. No backend required.</source>
+        <target>Composants Angular standalone, etat base sur les signaux, styles Tailwind et sauvegarde dans le navigateur. Aucun backend requis.</target>
+      </trans-unit>
+      <trans-unit id="remainingLabel" datatype="html">
+        <source>Remaining</source>
+        <target>Restant</target>
+      </trans-unit>
+      <trans-unit id="completedLabel" datatype="html">
+        <source>Completed</source>
+        <target>Terminees</target>
+      </trans-unit>
+      <trans-unit id="totalLabel" datatype="html">
+        <source>Total</source>
+        <target>Total</target>
+      </trans-unit>
+      <trans-unit id="todoTitleLabel" datatype="html">
+        <source>Todo title</source>
+        <target>Titre de la tache</target>
+      </trans-unit>
+      <trans-unit id="todoPlaceholder" datatype="html">
+        <source>Add a task that matters</source>
+        <target>Ajoutez une tache importante</target>
+      </trans-unit>
+      <trans-unit id="addTodoButton" datatype="html">
+        <source>Add todo</source>
+        <target>Ajouter</target>
+      </trans-unit>
+      <trans-unit id="allFilterButton" datatype="html">
+        <source>All</source>
+        <target>Toutes</target>
+      </trans-unit>
+      <trans-unit id="activeFilterButton" datatype="html">
+        <source>Active</source>
+        <target>Actives</target>
+      </trans-unit>
+      <trans-unit id="completedFilterButton" datatype="html">
+        <source>Completed</source>
+        <target>Terminees</target>
+      </trans-unit>
+      <trans-unit id="toggleTodoAriaLabel" datatype="html">
+        <source>Toggle <x id="INTERPOLATION" equiv-text="{{ todo.title }}"/></source>
+        <target>Basculer <x id="INTERPOLATION" equiv-text="{{ todo.title }}"/></target>
+      </trans-unit>
+      <trans-unit id="deleteTodoButton" datatype="html">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="emptyStateTitle" datatype="html">
+        <source>Nothing here yet.</source>
+        <target>Aucune tache pour le moment.</target>
+      </trans-unit>
+      <trans-unit id="emptyStateDescription" datatype="html">
+        <source>Add your first todo to start tracking tasks in this browser.</source>
+        <target>Ajoutez votre premiere tache pour commencer a la suivre dans ce navigateur.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
