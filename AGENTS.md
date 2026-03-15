@@ -18,6 +18,19 @@ This repository is a small Angular todo app. Keep changes practical, local, and 
 - `npm run build` creates a production build
 - `npm test -- --watch=false` runs the test suite once
 
+## Netlify Deployment
+
+- Check auth and linked site with `npx netlify status`
+- Authenticate with `npx netlify login` when needed
+- Create/link a site with `npx netlify sites:create --name <site-name>` or `npx netlify init`
+- Create a preview deploy with `npx netlify deploy`
+- Create a production deploy with `npx netlify deploy --prod`
+- Use `npx netlify deploy --json` (and `--prod --json`) when you need deploy URLs in machine-readable output
+- Build config is managed in `netlify.toml`:
+  - build command: `npm run build`
+  - publish directory: `dist/todo-demo-codex/browser`
+  - SPA redirect: `/* -> /index.html (200)` for Angular client routes
+
 ## App Structure
 
 - Routes include `/`, `/en`, and `/fr`; unknown routes redirect to `/`
